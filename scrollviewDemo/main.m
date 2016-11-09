@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
+#import "scrollviewDemo-Bridging-Header.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
