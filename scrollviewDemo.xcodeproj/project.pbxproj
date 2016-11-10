@@ -151,9 +151,14 @@
 				TargetAttributes = {
 					38E37BE31C6DE36200807203 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = SSW2MT896X;
+						DevelopmentTeam = U7NW2TWB23;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -334,9 +339,9 @@
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.push;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.inspection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c4363875-4300-41c4-a55c-3d0106de5a3c";
+				PROVISIONING_PROFILE = "6dfb2f0a-0d8d-4911-bebc-eb855c790e00";
 				PROVISIONING_PROFILE_SPECIFIER = "safeguard push";
 				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -357,9 +362,9 @@
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.push;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.inspection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c4363875-4300-41c4-a55c-3d0106de5a3c";
+				PROVISIONING_PROFILE = "6dfb2f0a-0d8d-4911-bebc-eb855c790e00";
 				PROVISIONING_PROFILE_SPECIFIER = "safeguard push";
 				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
