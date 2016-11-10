@@ -153,6 +153,7 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = SSW2MT896X;
 						LastSwiftMigration = 0800;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -326,13 +327,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SSW2MT896X;
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.inspection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.push;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8a2fb9a-09a1-43f3-af81-727c7dec691c";
+				PROVISIONING_PROFILE_SPECIFIER = "safeguard push";
 				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -345,13 +349,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SSW2MT896X;
 				INFOPLIST_FILE = scrollviewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.inspection;
+				PRODUCT_BUNDLE_IDENTIFIER = com.safeguard.push;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c8a2fb9a-09a1-43f3-af81-727c7dec691c";
+				PROVISIONING_PROFILE_SPECIFIER = "safeguard push";
 				SWIFT_OBJC_BRIDGING_HEADER = "scrollviewDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
